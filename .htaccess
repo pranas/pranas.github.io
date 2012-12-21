@@ -1,7 +1,0 @@
-php_flag engine off
-
-# redirect to pranas.kiziela.lt
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^pranas\.kiziela\.lt$ [NC]
-RewriteRule ^/(.*)$ http://pranas.kiziela.lt/$1 [L,R=301]
-
