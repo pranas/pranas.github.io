@@ -1,4 +1,3 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem 'rack'
-gem 'rack-rewrite'
+gem 'github-pages'
